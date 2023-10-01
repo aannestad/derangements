@@ -1,6 +1,12 @@
+/* your-stylesheet.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -22,6 +28,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.marble {
+  box-sizing: border-box;
 }
 
 .App-link {
